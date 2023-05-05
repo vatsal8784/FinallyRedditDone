@@ -1,0 +1,17 @@
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\App.deps.json
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\App.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\App.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\FileData.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\Shared.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\FileData.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\bin\Debug\net7.0\Shared.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.csproj.AssemblyReference.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.AssemblyInfoInputs.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.AssemblyInfo.cs
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.csproj.CoreCompileInputs.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.csproj.CopyComplete
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\refint\App.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\App.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\App\obj\Debug\net7.0\ref\App.dll

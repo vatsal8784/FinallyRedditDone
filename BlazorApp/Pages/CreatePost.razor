@@ -1,0 +1,80 @@
+﻿@page "/CreatePost"
+<h3>CreatePost</h3>
+@attribute [Authorize]
+@using System.Security.Claims
+@using BlazorApp.Services
+@using global::Shared.DTO
+@using Microsoft.AspNetCore.Components.Authorization
+@inject IPostService PostService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager navMgr
+
+<h3>CreatePost</h3>
+<div class="card">
+        <div class="form-group field">
+            <label>Title:</label>
+            <input type="text" @bind="Title"/>
+            <label>Post:</label>
+            <input type="text" @bind="Post"/>  
+        </div>
+    <div class="button-row">
+                @if (!string.IsNullOrEmpty(msg))
+                {
+                    <label style="color: red">@msg</label>
+                }
+                <button @onclick="Create" class="acceptbtn">Create</button>
+            </div>
+</div>
+
+@code {
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+    private string Id;
+    private string Title = "";
+    private string Post = "";
+    private string msg = "";
+    private IEnumerable<Claim> claims = Enumerable.Empty<Claim>();
+    
+
+    private async Task Create()
+    { var authState = await AuthenticationStateProvider
+        .GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            claims = user.Claims;
+            Id = user.FindFirst(c => c.Type == ClaimTypes.Sid)?.Value;
+
+        }
+        else
+        {
+            msg = "The user is NOT authenticated.";
+        }
+        
+        if (Post == null)
+        {
+            msg = "You must write something in order to post!";
+            return;
+        }
+        if (string.IsNullOrEmpty(Title))
+        {
+            msg = "Title cannot be empty!";
+            return;
+        }
+
+        try
+        {
+           
+            
+            CreatePostDTO dto = new (Int32.Parse(Id) , Title, Post);
+            await PostService.CreatePostAsync(dto);
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

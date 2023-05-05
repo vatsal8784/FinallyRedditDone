@@ -1,0 +1,15 @@
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\bin\Debug\net7.0\FileData.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\bin\Debug\net7.0\FileData.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\bin\Debug\net7.0\Shared.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\bin\Debug\net7.0\Shared.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\FileData.pdb
+C:\Users\Vatsal\RiderProjects\RedditFinal\FileData\obj\Debug\net7.0\ref\FileData.dll

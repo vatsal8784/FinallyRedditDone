@@ -1,0 +1,21 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "vatsal",
+      "Password": "123456"
+    }
+  ],
+  "Posts": [
+    {
+      "post": "lesss gooooo",
+      "title": "finally made it",
+      "user": {
+        "Id": 1,
+        "UserName": "vatsal",
+        "Password": "123456"
+      },
+      "Id": 1
+    }
+  ]
+}

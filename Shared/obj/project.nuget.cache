@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MWGL7xX/DticFWUHmTEYBE8feglPSLsfZe2TfNi24e4HcPO5v0HMa3P48d8TSc8TMc08fzrJ+P4ZP/pT6sLsPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\drago\\Desktop\\RedditFinal\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.5\\microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
